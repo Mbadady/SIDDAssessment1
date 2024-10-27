@@ -21,15 +21,17 @@ namespace SDD.Services.ProductAPI.Data
                 Name = "Samosa",
                 Price = 15,
                 Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                CategoryName = "Appetizer"
+                CategoryName = "Appetizer",
+                Quantity = 1,
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 ProductId = 2,
-                Name = "Paneer Tikka",
+                Name = "puff puff",
                 Price = 13.99,
                 Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                CategoryName = "Appetizer"
+                CategoryName = "Appetizer",
+                Quantity = 3
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
@@ -37,15 +39,17 @@ namespace SDD.Services.ProductAPI.Data
                 Name = "Sweet Pie",
                 Price = 10.99,
                 Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                CategoryName = "Dessert"
+                CategoryName = "Dessert",
+                Quantity = 2,
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 ProductId = 4,
-                Name = "Pav Bhaji",
+                Name = "Meat Pie",
                 Price = 15,
                 Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                CategoryName = "Entree"
+                CategoryName = "Dessert",
+                Quantity = 1
             });
         }
     }
