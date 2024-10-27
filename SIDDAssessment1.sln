@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDD.Services.AuthAPI", "Mango.Services.AuthAPI\SDD.Services.AuthAPI.csproj", "{002E5DB0-A046-485F-ACFF-93C3262B458C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDD.Services.AuthAPI", "SDD.Services.AuthAPI\SDD.Services.AuthAPI.csproj", "{002E5DB0-A046-485F-ACFF-93C3262B458C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDD.Services.ProductAPI", "Mango.Services.ProductAPI\SDD.Services.ProductAPI.csproj", "{61A33FA7-9EF7-4842-9698-A70363084046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDD.Services.ProductAPI", "SDD.Services.ProductAPI\SDD.Services.ProductAPI.csproj", "{61A33FA7-9EF7-4842-9698-A70363084046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
