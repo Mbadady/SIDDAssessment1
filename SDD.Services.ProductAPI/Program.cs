@@ -26,7 +26,7 @@ builder.Services.AddControllers(options =>
 {
     options.Filters.Add(new CustomAuthorizationFilter());
 });
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(IProductRepository<>), typeof(ProductRepository<>));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(option =>
